@@ -12,7 +12,7 @@ import unicodedata  # Para normalizar Unicode
 import numpy as np 
 
 # Ruta del archivo CSV
-file_path = r"C:\Users\e-malandaf\Downloads\tachados.csv"
+file_path = r""
 
 # Leer el archivo CSV
 df = pd.read_csv(file_path)
@@ -175,7 +175,7 @@ df_processed = df_processed[df_processed['VendorName_Clean'] != '']
 final_rows = len(df_processed)
 
 # Guardar el resultado en un nuevo archivo CSV
-output_file_path = r"C:\Users\e-malandaf\Downloads\cleanedVendors.csv"
+output_file_path = r""
 df_processed.to_csv(output_file_path, index=False, encoding='utf-8-sig')
 
 # Imprimir la diferencia en el número de filas
