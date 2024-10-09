@@ -1,4 +1,4 @@
-# Código para traducir y normalizar una lista de nombres de proveedores.
+# Código para traducir, normalizar y diversificar una lista de nombres de proveedores.
 # Tarda entre 2min y 5min para 2500 celdas (nombres de proveedores). 
 # De ser necesario, ejecutar por lotes de no más de 2500 celdas para evitar fallas en APIs.
 
